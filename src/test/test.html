@@ -11,7 +11,7 @@
             <span>👍</span>
         </button>-->
     </div>
-    <script>
+    <script>/*
         const createDOMFromString = domString => {
             const div = document.createElement('div')
             div.innerHTML = domString
@@ -56,7 +56,7 @@
 
         console.log(38, buttonHtml_1)
 
-        /*const button = document.querySelector('.like-btn')
+        /!*const button = document.querySelector('.like-btn')
         const buttonText = button.querySelector('.like-text')
         let isLiked = false
         button.addEventListener('click', () => {
@@ -66,8 +66,20 @@
           } else {
             buttonText.innerHTML = '点赞'
           }
-        }, false)*/
+        }, false)*!/*/
 
+    var p = new Promise(function(resolve, reject){
+        console.log("create a promise");
+        resolve("success");
+    });
+
+    console.log("after new Promise");
+
+    p.then(function(value){
+        console.log(value);
+    });
+
+    //create  after success
 
     </script>
 </body>
