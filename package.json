@@ -136,7 +136,7 @@
     "antd": "^3.23.6",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "react-router-dom": "^5.1.2",
     "styled-components": "^4.4.0"
   }
